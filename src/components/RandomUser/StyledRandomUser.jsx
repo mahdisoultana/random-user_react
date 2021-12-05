@@ -12,18 +12,19 @@ export const StyledRandomUser = styled.section`
   height: 510px;
   position: relative;
   .img-container {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: relative;
     z-index: 2;
     border-radius: 50%;
     margin: auto;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     background-color: white;
-    img {
+    > img {
       width: 100%;
+      border-radius: 50%;
       height: 100%;
       object-fit: cover;
       display: block;
@@ -66,11 +67,11 @@ export const StyledRandomUser = styled.section`
   h1 {
     margin: 0;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   h2 {
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1rem;
   }
   text-align: center;

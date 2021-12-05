@@ -6,7 +6,10 @@ function RandomUser() {
     <StyledRandomUser className="container">
       <div className="back-img"></div>
       <div className="img-container">
-        <img src="#" alt="name" />
+        <img
+          src="https://randomuser.me/api/portraits/women/97.jpg"
+          alt="name"
+        />
       </div>
       <div className="info">
         <h2>name</h2>
