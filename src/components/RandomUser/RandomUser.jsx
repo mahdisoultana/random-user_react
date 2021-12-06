@@ -43,8 +43,8 @@ function RandomUser() {
           name,
         });
 
-        setTitle("name");
-        setInfo(name);
+        setTitle("gender");
+        setInfo(gender);
       },
     },
   );
