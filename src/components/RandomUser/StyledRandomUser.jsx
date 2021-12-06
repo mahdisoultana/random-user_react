@@ -3,13 +3,13 @@ export const StyledRandomUser = styled.section`
   border-radius: 0.9em;
   overflow: hidden;
   width: 70%;
-  max-width: 930px;
+  max-width: 950px;
   margin: auto;
   background-color: #f7f6e5;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
   margin-top: 12vh;
   padding: 1rem;
-  height: 510px;
+  height: 540px;
   position: relative;
   .img-container {
     width: 250px;
@@ -30,6 +30,14 @@ export const StyledRandomUser = styled.section`
       display: block;
       backface-visibility: hidden;
     }
+  }
+  svg,
+  path {
+    pointer-events: none;
+  }
+  .active {
+    padding: 1rem;
+    background-color: #cbfdfd;
   }
   .back-img {
     position: absolute;
@@ -53,9 +61,14 @@ export const StyledRandomUser = styled.section`
   .info {
     flex-direction: column;
   }
+  button:hover {
+    background-color: #68a9c79d;
+  }
   button {
+    padding: 0.5rem;
     width: 100%;
     display: inline-block;
+    cursor: pointer;
   }
   .rnd-user-btn {
     width: 60%;
@@ -63,6 +76,9 @@ export const StyledRandomUser = styled.section`
     margin: 2rem auto;
     text-align: center;
     padding: 1rem 2rem;
+    &:disabled {
+      opacity: 0.9;
+    }
   }
   h1 {
     margin: 0;
