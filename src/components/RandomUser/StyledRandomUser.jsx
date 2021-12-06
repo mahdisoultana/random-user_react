@@ -52,6 +52,7 @@ export const StyledRandomUser = styled.section`
     margin: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 80%;
     align-items: center;
     button {
@@ -84,11 +85,14 @@ export const StyledRandomUser = styled.section`
     margin: 0;
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    text-transform: capitalize;
   }
   h2 {
+    text-transform: capitalize;
     margin: 0;
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
   text-align: center;
 `;
