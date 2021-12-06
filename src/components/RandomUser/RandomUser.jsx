@@ -64,7 +64,7 @@ function RandomUser() {
     setTitle(e.target.className.split(" ")[0].trim());
     setInfo(user[e.target.className]);
   }
-  console.log(data);
+
   return (
     <StyledRandomUser className="container">
       <div className="back-img"></div>
